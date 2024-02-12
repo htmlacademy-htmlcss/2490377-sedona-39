@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Савелий](https://up.htmlacademy.ru/htmlcss/39/user/2490377).
-* Наставник: `Неизвестно`.
+* Студент: [Савелий Пекарь](https://up.htmlacademy.ru/htmlcss/39/user/2490377).
+* Наставник: [Виктор Рыбаков](https://up.htmlacademy.ru/htmlcss/39/user/1012537).
 
 ---
 
