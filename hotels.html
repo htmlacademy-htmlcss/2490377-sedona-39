@@ -54,6 +54,68 @@
       </li>
     </ul>
   </header>
+  <section class="hotels">
+    <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+      <fieldset class="hotel-filter">
+        <legend class="hotel-filter-title">Инфраструктура:</legend>
+        <ul class="hotel-filter-list">
+          <li class="hotel-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="pool">
+
+              Бассейн
+            </label>
+          </li>
+          <li class="hotel-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="parking">
+
+              Парковка
+            </label>
+          </li>
+          <li class="hotel-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="wi-fi">
+
+              Wi-Fi
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="hotel-filter">
+        <legend class="hotel-filter-title">Тип жилья:</legend>
+        <ul class="hotel-filter-list">
+          <li class="hotel-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="hotel">
+
+              Гостиница
+            </label>
+          </li>
+          <li class="hotel-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="motel">
+
+              Мотель
+            </label>
+          </li>
+          <li class="hotel-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="apartments">
+
+              Апартаменты
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <button class="button" type="submit">Применить</button>
+      <button class="button" type="reset">Сбросить</button>
+    </form>
+  </section>
 </main>
 <footer class="page-footer">
   <section class="newsletter">
