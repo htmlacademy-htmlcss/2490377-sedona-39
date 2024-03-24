@@ -58,7 +58,7 @@
     <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-      <fieldset class="hotel-filter">
+      <fieldset class="hotel-filter-group">
         <legend class="hotel-filter-title">Инфраструктура:</legend>
         <ul class="hotel-filter-list">
           <li class="hotel-filter-item">
@@ -85,7 +85,7 @@
         </ul>
       </fieldset>
 
-      <fieldset class="hotel-filter">
+      <fieldset class="hotel-filter-group">
         <legend class="hotel-filter-title">Тип жилья:</legend>
         <ul class="hotel-filter-list">
           <li class="hotel-filter-item">
@@ -115,6 +115,19 @@
       <button class="button" type="submit">Применить</button>
       <button class="button" type="reset">Сбросить</button>
     </form>
+
+    <p>
+      <em class="information-search-result">
+        Найдено гостиниц: <span class="information-search-result-count">38</span>
+      </em>
+    </p>
+
+    <select class="select-control" aria-label="Сортировка">
+      <option value="cheap">Сначала дешёвые</option>
+      <option value="popular">Сначала популярные</option>
+      <option value="expensive">Сначала дорогие</option>
+    </select>
+
   </section>
 </main>
 <footer class="page-footer">
