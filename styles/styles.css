@@ -56,14 +56,57 @@ h2, .decorative-h2 {
   margin-bottom: 25px;
 }
 
-.city-advantages-title
-{
+.city-advantages-title {
   margin-top: 0;
   margin-bottom: 69px;
 }
 
-.visually-hidden
-{
+.city-advantages-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "advantage-1 photo-1 photo-1"
+    "advantage-2 advantage-3 advantage-4"
+    "photo-2 photo-2 advantage-5";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(385px, auto);
+}
+
+.city-advantages-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.city-advantages-photo-1 {
+  grid-area: photo-1;
+}
+
+.city-advantages-photo-2 {
+  grid-area: photo-2;
+}
+
+.city-advantages-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: chocolate;
+}
+
+.city-advantages-item-title {
+  margin: 0;
+}
+
+.city-advantages-description{
+  margin: 0;
+}
+
+.city-advantages-list {
+  display: contents;
+}
+
+.visually-hidden {
   display: none;
 }
 
@@ -114,12 +157,11 @@ h2, .decorative-h2 {
   position: relative;
 }
 
-.navigation-item-want-to-sedona
-{
+.navigation-item-want-to-sedona {
   padding: 0 0 0 20px;
 }
 
-.navigation-item-text a{
+.navigation-item-text a {
   height: 100%;
   display: flex;
   align-items: center;
@@ -160,14 +202,12 @@ h2, .decorative-h2 {
   background-image: url('../images/decor/icons/favorites.svg');
 }
 
-.navigation-user
-{
+.navigation-user {
   margin-right: 70px;
   margin-left: auto;
 }
 
-.page-header-small-logo
-{
+.page-header-small-logo {
   position: absolute;
   z-index: 10;
   left: 70px;
@@ -235,7 +275,6 @@ h2, .decorative-h2 {
   border-radius: 4px;
 }
 
-.button-want-to-sedona
-{
+.button-want-to-sedona {
   width: 160px;
 }
