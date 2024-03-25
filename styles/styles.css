@@ -91,7 +91,21 @@ h2, .decorative-h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: chocolate;
+}
+
+.city-advantages-list li:nth-child(1),
+.city-advantages-list li:nth-child(5) {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.city-advantages-list li:nth-child(2),
+.city-advantages-list li:nth-child(4) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.city-advantages-list li:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .city-advantages-item-title::after {
@@ -101,6 +115,12 @@ h2, .decorative-h2 {
   height: 2px;
   margin: 30px auto;
   background: rgba(0, 0, 0, 0.3);
+}
+
+.city-advantages-list li:nth-child(1) .city-advantages-item-title::after,
+.city-advantages-list li:nth-child(5) .city-advantages-item-title::after
+{
+  background: rgba(255, 255, 255, 0.3)
 }
 
 .city-advantages-item-title {
