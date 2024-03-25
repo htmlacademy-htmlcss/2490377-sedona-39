@@ -94,6 +94,15 @@ h2, .decorative-h2 {
   background: chocolate;
 }
 
+.city-advantages-item-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .city-advantages-item-title {
   margin: 0;
 }
