@@ -41,6 +41,10 @@ h1, .decorative-h1 {
   color: #000000;
 }
 
+.main-index-title {
+  margin-top: 69px;
+}
+
 .visually-hidden
 {
   display: none;
