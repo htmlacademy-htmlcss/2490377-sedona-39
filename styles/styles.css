@@ -69,7 +69,7 @@ h2, .decorative-h2 {
     "advantage-2 advantage-3 advantage-4"
     "photo-2 photo-2 advantage-5"
     "advantage-6 advantage-6 advantage-6";
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, minmax(385px, auto)) minmax(246px, auto);
 }
 
@@ -87,11 +87,18 @@ h2, .decorative-h2 {
   grid-area: photo-2;
 }
 
-.city-advantages-item {
+.city-advantages-item,
+.vacation-tips-item
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.vacation-tips-item
+{
+  min-height: 385px;
 }
 
 .city-advantages-list li:nth-child(1),
@@ -101,11 +108,16 @@ h2, .decorative-h2 {
 }
 
 .city-advantages-list li:nth-child(2),
-.city-advantages-list li:nth-child(4) {
+.city-advantages-list li:nth-child(4),
+.vacation-tips-list li:nth-child(2)
+{
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.city-advantages-list li:nth-child(3) {
+.city-advantages-list li:nth-child(3),
+.vacation-tips-list li:nth-child(1),
+.vacation-tips-list li:nth-child(3)
+{
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -140,16 +152,22 @@ h2, .decorative-h2 {
   background: rgba(255, 255, 255, 0.3)
 }
 
-.city-advantages-item-title {
+.vacation-tips-list
+{
+  width: 100%;
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
 }
 
-.city-advantages-description{
-  margin: 0;
+.vacation-tips-item {
+  flex: 1 1 0;
 }
 
-.city-advantages-list {
-  display: contents;
+.city-advantages-description,
+.vacation-tips-description {
+  margin: 0;
 }
 
 .visually-hidden {
@@ -287,13 +305,26 @@ h2, .decorative-h2 {
 
 .city-advantages-list {
   text-align: center;
+  display: contents;
 }
 
-.city-advantages-item-title {
+.vacation-tips-item {
+  text-align: center;
+}
+
+.city-advantages-item-title,
+.vacation-tips-title
+{
+  margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.vacation-tips-title
+{
+  margin-bottom: 30px;
 }
 
 .main-banner-divider {
