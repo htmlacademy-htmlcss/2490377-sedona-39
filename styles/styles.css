@@ -59,10 +59,22 @@ body {
 }
 
 .navigation-list {
-  /*---*/
-  width: 340px;
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-menu {
+  margin-left: 238px;
+}
+
+.navigation-item {
+  height: 64px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
 }
 
 .navigation-user
