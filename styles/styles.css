@@ -83,6 +83,12 @@ body {
   position: relative;
 }
 
+.navigation-item-want-to-sedona
+{
+  padding: 0;
+  padding-left: 20px;
+}
+
 .navigation-item-text a{
   height: 100%;
   display: flex;
