@@ -85,3 +85,17 @@ body {
   background-size: 100% auto;
   background-position: bottom center;
 }
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
