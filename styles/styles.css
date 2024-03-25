@@ -67,9 +67,10 @@ h2, .decorative-h2 {
   grid-template-areas:
     "advantage-1 photo-1 photo-1"
     "advantage-2 advantage-3 advantage-4"
-    "photo-2 photo-2 advantage-5";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(385px, auto);
+    "photo-2 photo-2 advantage-5"
+    "advantage-6 advantage-6 advantage-6";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(385px, auto)) minmax(246px, auto);
 }
 
 .city-advantages-photo img {
@@ -106,6 +107,22 @@ h2, .decorative-h2 {
 
 .city-advantages-list li:nth-child(3) {
   background-color: rgba(131, 179, 211, 0.2);
+}
+
+.city-advantages-list li:nth-child(6) {
+  grid-area: advantage-6;
+}
+
+.city-advantages-list li:nth-child(6) {
+  flex-direction: column-reverse;
+}
+
+.city-advantages-list li:nth-child(6) .decorative-h1{
+  margin: 0 0 20px;
+}
+
+.city-advantages-list li:nth-child(6) h3{
+  margin: 0;
 }
 
 .city-advantages-item-title::after {
