@@ -31,6 +31,16 @@ body {
   flex-direction: column;
 }
 
+h1, .decorative-h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .visually-hidden
 {
   display: none;
