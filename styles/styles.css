@@ -47,8 +47,35 @@ body {
 }
 
 .page-header {
+  position: relative;
   color: #000000;
   background-color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  /*---*/
+  width: 340px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user
+{
+  width: 268px;
+  margin-left: auto;
+}
+
+.page-header-small-logo
+{
+  position: absolute;
+  z-index: 10;
+  left: 70px;
 }
 
 .navigation-link {
