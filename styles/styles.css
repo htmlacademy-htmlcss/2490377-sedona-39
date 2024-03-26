@@ -152,6 +152,32 @@ h2, .decorative-h2 {
   background: rgba(255, 255, 255, 0.3)
 }
 
+.vacation-tips-title::before {
+  content: "";
+  display: block;
+  margin: 30px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vacation-tips-title-housing::before {
+  width: 77px;
+  height: 72px;
+  background-image: url('../images/decor/icons/vacation-tips-housing.svg');
+}
+
+.vacation-tips-title-food::before {
+  width: 76px;
+  height: 72px;
+  background-image: url('../images/decor/icons/vacation-tips-food.svg');
+}
+
+.vacation-tips-title-souvenir::before {
+  width: 76px;
+  height: 76px;
+  background-image: url('../images/decor/icons/vacation-tips-souvenir.svg');
+}
+
 .vacation-tips-list
 {
   width: 100%;
