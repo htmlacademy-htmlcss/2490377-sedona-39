@@ -383,6 +383,10 @@ h2, .decorative-h2 {
   border-radius: 4px;
 }
 
+.action-button {
+  background-color: #82B3D3;
+}
+
 .button-want-to-sedona {
   width: 160px;
 }
@@ -449,7 +453,10 @@ h2, .decorative-h2 {
   margin: 0 0 54px;
 }
 
-input[type="email"] {
+.field {
+  border: 1px solid transparent;
+  outline: none;
+  margin: 0;
   font-size: 18px;
   line-height: 24px;
   padding-top: 14px;
@@ -459,9 +466,25 @@ input[type="email"] {
   font-family: 'PT Sans', serif;
   font-style: normal;
   font-weight: 400;
+  border-radius: 4px;
 }
 
-input[type="email"]:focus,
-input[type="email"]:active {
+.field:focus,
+.field:active {
   outline: none;
+}
+
+.newsletter-form
+{
+  justify-content: center;
+  display: flex;
+}
+
+.newsletter-email-field {
+  border-radius: 4px 0 0 4px;
+}
+
+.newsletter-button
+{
+  border-radius: 0 4px 4px 0;
 }
