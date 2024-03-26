@@ -205,7 +205,7 @@ h2, .decorative-h2 {
 }
 
 .inner-header-title {
-  margin: 0;
+  margin: 0 0 8px;
   text-transform: none;
   font-style: normal;
   font-size: 60px;
@@ -637,4 +637,20 @@ h2, .decorative-h2 {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 412px;
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.breadcrumbs .breadcrumbs-link {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
