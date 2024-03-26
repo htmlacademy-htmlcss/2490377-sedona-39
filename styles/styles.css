@@ -498,6 +498,22 @@ h2, .decorative-h2 {
   padding: 40px 70px 30px;
 }
 
+.notification-counter {
+  position: absolute;
+  right: 4px;
+  top: 11px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-style: normal;
+  font-size: 10px;
+  background: #7DB54F;
+  border-radius: 10px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+
 .social-icon-vk
 {
   background-image: url('../images/decor/icons/social-vk.svg');
