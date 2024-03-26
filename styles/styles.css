@@ -365,6 +365,7 @@ h2, .decorative-h2 {
 }
 
 .button {
+  display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -382,10 +383,15 @@ h2, .decorative-h2 {
   width: 160px;
 }
 
+.hotel-reservation
+{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  text-align: center;
+}
+
 .hotel-reservation p
 {
-  text-align: center;
-  padding: 96px 0 0;
   margin: 0 0 20px;
 }
 
@@ -395,7 +401,13 @@ h2, .decorative-h2 {
 }
 
 .hotel-reservation-title {
-  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.button-hotel-search-big {
+  font-size: 20px;
+  line-height: 36px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
