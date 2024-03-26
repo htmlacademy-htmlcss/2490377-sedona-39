@@ -121,74 +121,75 @@
         <button class="button" type="reset">Сбросить</button>
       </form>
 
-      <p>
-        <em class="information-search-result">
-          Найдено гостиниц: <span class="information-search-result-count">38</span>
-        </em>
-      </p>
+      <div class="container-found-hotels">
+        <p>
+          <em class="information-search-result">
+            Найдено гостиниц: <span class="information-search-result-count">38</span>
+          </em>
+        </p>
 
-      <select class="select-control" aria-label="Сортировка">
-        <option value="cheap">Сначала дешёвые</option>
-        <option value="popular">Сначала популярные</option>
-        <option value="expensive">Сначала дорогие</option>
-      </select>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвые</option>
+          <option value="popular">Сначала популярные</option>
+          <option value="expensive">Сначала дорогие</option>
+        </select>
 
-      <ul class="hotels-element-shape-selection-menu" aria-label="Вид отображения элементов">
-        <li class="hotels-element-shape-item">
-          <a class="hotels-element-shape-button hotels-element-shape-button-cards-mode hotels-element-shape-button-light" href="#">
-            <span class="visually-hidden">Отображение элементов в виде карточек</span>
-          </a>
-        </li>
-        <li class="hotels-element-shape-item">
-          <a class="hotels-element-shape-button hotels-element-shape-button-sketch-mode" href="#">
-            <span class="visually-hidden">Отображение элементов в виде крупных эскзиов</span>
-          </a>
-        </li>
-        <li class="hotels-element-shape-item hotels-element-shape-button-list-mode">
-          <a class="hotels-element-shape-button" href="#">
-            <span class="visually-hidden">Отображение элементов в виде списка</span>
-          </a>
-        </li>
-      </ul>
+        <ul class="hotels-element-shape-selection-menu" aria-label="Вид отображения элементов">
+          <li class="hotels-element-shape-item">
+            <a class="hotels-element-shape-button hotels-element-shape-button-cards-mode hotels-element-shape-button-light" href="#">
+              <span class="visually-hidden">Отображение элементов в виде карточек</span>
+            </a>
+          </li>
+          <li class="hotels-element-shape-item">
+            <a class="hotels-element-shape-button hotels-element-shape-button-sketch-mode" href="#">
+              <span class="visually-hidden">Отображение элементов в виде крупных эскзиов</span>
+            </a>
+          </li>
+          <li class="hotels-element-shape-item hotels-element-shape-button-list-mode">
+            <a class="hotels-element-shape-button" href="#">
+              <span class="visually-hidden">Отображение элементов в виде списка</span>
+            </a>
+          </li>
+        </ul>
 
-      <ul class="hotel-list">
-        <li class="hotel-card">
-          <a class="hotel-card" href="hotel.html">
-            <img class="hotel-card-image" src="images/content/hotels/hotel-1.jpg" width="300" height="212" alt="Территория вокруг гостиницы: Отверстие в горах, сквозь которое виды звёзды">
-            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
-          </a>
-          <em class="hotel-card-type">Гостиница</em>
-          <em class="hotel-card-price">От 4000 ₽</em>
-          <a class="button hotel-card-button hotel-card-button-more-details" href="#">Подробнее</a>
-          <a class="button hotel-card-button hotel-card-button-to-favorites" href="#">В избранное</a>
-          <em class="hotel-card-rating-star-rating">Рейтинг: 8,5</em>
-          <em class="hotel-card-hotel-stars">5 звёзд</em>
-        </li>
-      </ul>
-
-      <ul class="pagination">
-        <li class="pagination-item">
-          <a class="button pagination-link pagination-current">1</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button pagination-link" href="#">2</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button pagination-link" href="#">3</a>
-        </li>
-        <li class="pagination-item">
-          <a class="button pagination-link" href="#">4</a>
-        </li>
-        <li class="pagination-item pagination-item-three-dots">
-          <span>...</span>
-        </li>
-        <li class="pagination-item">
-          <a class="button pagination-link pagination-next" href="#" aria-label="Последняя страница">
-            <span class="visually-hidden">10</span>
-          </a>
-        </li>
-      </ul>
-
+        <ul class="hotel-list">
+          <li class="hotel-card">
+            <a class="hotel-card" href="hotel.html">
+              <img class="hotel-card-image" src="images/content/hotels/hotel-1.jpg" width="300" height="212" alt="Территория вокруг гостиницы: Отверстие в горах, сквозь которое виды звёзды">
+              <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+            </a>
+            <em class="hotel-card-type">Гостиница</em>
+            <em class="hotel-card-price">От 4000 ₽</em>
+            <a class="button hotel-card-button hotel-card-button-more-details" href="#">Подробнее</a>
+            <a class="button hotel-card-button hotel-card-button-to-favorites" href="#">В избранное</a>
+            <em class="hotel-card-rating-star-rating">Рейтинг: 8,5</em>
+            <em class="hotel-card-hotel-stars">5 звёзд</em>
+          </li>
+        </ul>
+        <div class="large-separator"></div>
+        <ul class="pagination">
+          <li class="pagination-item pagination-item-selected">
+            <a class="button pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button action-button pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button action-button pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button action-button pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item pagination-item-three-dots">
+            <a class="button pagination-link" href="#">...</a>
+          </li>
+          <li class="pagination-item">
+            <a class="button action-button pagination-link" href="#" aria-label="Последняя страница">
+              10
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="page-footer">

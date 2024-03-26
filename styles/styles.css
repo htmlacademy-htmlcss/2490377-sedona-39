@@ -387,6 +387,20 @@ h2, .decorative-h2 {
   background-color: #82B3D3;
 }
 
+.light-button,
+.pagination-item-selected .button {
+  background-color: #F2F2F2;
+}
+
+.pagination-item-selected .button {
+  color: black;
+}
+
+.pagination-item-three-dots .button{
+  color: black;
+  background-color: transparent;
+}
+
 .button-want-to-sedona {
   width: 160px;
 }
@@ -568,4 +582,37 @@ h2, .decorative-h2 {
 
 .newsletter-light .newsletter-email-field {
   background: #F2F2F2;
+}
+
+.container-found-hotels {
+  /*background: #2fb42b;*/
+  padding: 50px 70px 60px;
+}
+
+.pagination-item .button{
+  margin-right: 8px;
+  padding: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.pagination
+{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.large-separator
+{
+  background-color: #E6E6E6;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
