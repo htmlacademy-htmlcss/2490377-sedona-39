@@ -631,7 +631,7 @@ h2, .decorative-h2 {
 .container-filter-hotels {
   padding-left:70px;
   padding-right:70px;
-  padding-top:50px;
+  padding-top:35px;
   background-color: orange;
   background-image: url('../images/decor/backgrounds/hotel-filter.jpg');
   background-size: cover;
@@ -641,9 +641,9 @@ h2, .decorative-h2 {
 
 .breadcrumbs {
   padding: 0;
-  margin: 0;
   display: flex;
   list-style: none;
+  margin: 0 0 40px;
 }
 
 .breadcrumbs .breadcrumbs-link {
@@ -657,12 +657,39 @@ h2, .decorative-h2 {
 
 .breadcrumbs-item::after {
   content: "";
-  margin-right: 11px;
-  margin-left: 11px;
+  margin-right: 10px;
+  margin-left: 10px;
   display: inline-block;
   width: 8px;
-  height: 10px;
+  height: 11px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../images/decor/icons/breadcrumbs-arrow.svg');
+  vertical-align: middle;
+  clear: both;
+}
+
+.breadcrumbs li:last-child::after {
+  background-image: none;
+}
+
+.breadcrumbs li:first-child a span{
+  display: none;
+}
+
+.breadcrumbs li:first-child a {
+  margin-top: 4px;
+  display: block;
+  float: left;
+  width: 13px;
+  height: 15px;
+  background-image: url('../images/decor/icons/breadcrumbs-home.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.breadcrumbs-item a{
+  margin: 0;
+  padding: 0;
 }
