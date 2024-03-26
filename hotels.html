@@ -12,34 +12,37 @@
       <img src="images/decor/logos/small-sedona.svg" width="140" height="70" alt="Логотип «Седона»">
     </a>
     <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главная</a>
+      <ul class="navigation-list navigation-menu">
+        <li class="navigation-item navigation-item-text navigation-item-active">
+          <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
         </li>
-        <li class="navigation-item">
+        <li class="navigation-item navigation-item-text">
           <a class="navigation-link" href="about.html">О Седоне</a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link navigation-link-current" href="hotels.html">Гостиницы</a>
+        <li class="navigation-item navigation-item-text">
+          <a class="navigation-link" href="hotels.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
+        <li class="navigation-item navigation-item-icon navigation-item-icon-search navigation-item-text">
           <a class="navigation-link" href="#">
               <span class="visually-hidden">
                   Поиск
               </span>
           </a>
         </li>
-        <li class="navigation-item">
+        <li class="navigation-item navigation-item-icon navigation-item-icon-favorites navigation-item-text">
           <a class="navigation-link" href="#">
             <span class="visually-hidden">
                   Избранное
             </span>
+            <em class="notification-counter">
+              12
+            </em>
           </a>
         </li>
-        <li class="navigation-item">
-          <a class="button" href="#">Хочу сюда!</a>
+        <li class="navigation-item navigation-item-want-to-sedona">
+          <a class="button button-want-to-sedona" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -190,35 +193,34 @@
   </main>
   <footer class="page-footer">
     <section class="newsletter">
-      <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
+      <h2 class="newsletter-title decorative-h1">Подпишитесь на рассылку</h2>
       <p>
-        <i>Только полезная информация и никакого спама, </br>честное бойскаутское!</i>
+        <i class="decorative-h2">Только полезная информация и никакого спама, </br>честное бойскаутское!</i>
       </p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="newsletter-email">Email</label>
-        <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-               required>
-        <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">Подписаться</span>
+        <label class="visually-hidden" for="newsletter-email">Email</label>
+        <input class="field newsletter-email-field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+        <button class="button action-button newsletter-button" type="submit">
+          <span>Подписаться</span>
         </button>
       </form>
     </section>
-    <div>
+    <div class="page-footer-bottom">
       <section class="footer-social">
         <h2 class="page-footer-title visually-hidden">Наши страницы в социальных сетях</h2>
         <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="button" href="#">
+          <li class="footer-social-item social-icon-vk">
+            <a href="#">
               <span class="visually-hidden">ВКонтакте</span>
             </a>
           </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
+          <li class="footer-social-item social-icon-telegram">
+            <a href="#">
               <span class="visually-hidden">Телеграмм</span>
             </a>
           </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
+          <li class="footer-social-item social-icon-youtube">
+            <a href="#">
               <span class="visually-hidden">Ютюб</span>
             </a>
           </li>
