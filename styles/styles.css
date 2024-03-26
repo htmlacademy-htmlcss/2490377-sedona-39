@@ -400,9 +400,20 @@ h2, .decorative-h2 {
   padding: 0;
 }
 
-.hotel-reservation-title {
+.hotel-reservation-title,
+.newsletter-title
+{
   margin: 0;
   padding: 0;
+}
+
+.newsletter-title {
+  color: #FFFFFF;
+}
+
+.newsletter .decorative-h2
+{
+  color: #FFFFFF;
 }
 
 .button-hotel-search-big {
@@ -410,4 +421,14 @@ h2, .decorative-h2 {
   line-height: 36px;
   padding-right: 50px;
   padding-left: 50px;
+}
+
+.newsletter {
+  color: #FFFFFF;
+  background-image: url('../images/decor/backgrounds/subscribe-block.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
