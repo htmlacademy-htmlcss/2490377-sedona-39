@@ -204,6 +204,17 @@ h2, .decorative-h2 {
   flex-grow: 1;
 }
 
+.inner-header-title {
+  margin: 0;
+  text-transform: none;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: left;
+  color: white;
+
+}
+
 .page-wrapper {
   flex-grow: 1;
   min-height: 100%;
@@ -585,7 +596,7 @@ h2, .decorative-h2 {
 }
 
 .container-found-hotels {
-  /*background: #2fb42b;*/
+  background: #2fb42b;
   padding: 50px 70px 60px;
 }
 
@@ -615,4 +626,15 @@ h2, .decorative-h2 {
   height: 1px;
   margin-bottom: 40px;
   margin-top: 40px;
+}
+
+.container-filter-hotels {
+  padding-left:70px;
+  padding-right:70px;
+  padding-top:50px;
+  background-color: orange;
+  background-image: url('../images/decor/backgrounds/hotel-filter.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 412px;
 }
