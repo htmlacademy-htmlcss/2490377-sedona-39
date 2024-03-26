@@ -381,3 +381,21 @@ h2, .decorative-h2 {
 .button-want-to-sedona {
   width: 160px;
 }
+
+.hotel-reservation p
+{
+  text-align: center;
+  padding: 96px 0 0;
+  margin: 0 0 20px;
+}
+
+.hotel-reservation h2{
+  margin: 0 0 54px;
+  padding: 0;
+}
+
+.hotel-reservation-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
