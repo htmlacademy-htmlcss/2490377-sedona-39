@@ -368,6 +368,8 @@ h2, .decorative-h2 {
   border: none;
   box-shadow: none;
   display: inline-block;
+  font-family: 'PT Sans', serif;
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
