@@ -365,6 +365,8 @@ h2, .decorative-h2 {
 }
 
 .button {
+  border: none;
+  box-shadow: none;
   display: inline-block;
   font-weight: 700;
   font-size: 16px;
@@ -417,7 +419,14 @@ h2, .decorative-h2 {
   color: #FFFFFF;
 }
 
-.button-hotel-search-big {
+.hotel-search-big-button {
+  font-size: 20px;
+  line-height: 36px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.newsletter-button {
   font-size: 20px;
   line-height: 36px;
   padding-right: 50px;
@@ -445,11 +454,12 @@ input[type="email"] {
   padding-bottom: 14px;
   padding-left: 20px;
   width: 452px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', serif;
   font-style: normal;
   font-weight: 400;
 }
 
-input[type="email"]:focus {
+input[type="email"]:focus,
+input[type="email"]:active {
   outline: none;
 }
