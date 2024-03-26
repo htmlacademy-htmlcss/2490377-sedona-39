@@ -632,7 +632,6 @@ h2, .decorative-h2 {
   padding-left:70px;
   padding-right:70px;
   padding-top:35px;
-  background-color: orange;
   background-image: url('../images/decor/backgrounds/hotel-filter.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -692,4 +691,8 @@ h2, .decorative-h2 {
 .breadcrumbs-item a{
   margin: 0;
   padding: 0;
+}
+
+input[type="checkbox"] {
+  display: none;
 }
