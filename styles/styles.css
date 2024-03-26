@@ -553,3 +553,19 @@ h2, .decorative-h2 {
   font-size: 40px;
   line-height: 40px;
 }
+
+.newsletter-light {
+  background-image: none;
+}
+
+.newsletter-light .newsletter-title {
+  color: #000000;
+}
+
+.newsletter-light .decorative-h2 {
+  color: #333333;
+}
+
+.newsletter-light .newsletter-email-field {
+  background: #F2F2F2;
+}
