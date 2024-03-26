@@ -488,3 +488,7 @@ h2, .decorative-h2 {
 {
   border-radius: 0 4px 4px 0;
 }
+
+.page-footer-bottom {
+  display: flex;
+}
