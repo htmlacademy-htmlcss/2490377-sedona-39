@@ -408,6 +408,7 @@ h2, .decorative-h2 {
 }
 
 .newsletter-title {
+  margin: 0 0 20px;
   color: #FFFFFF;
 }
 
@@ -431,4 +432,24 @@ h2, .decorative-h2 {
   text-align: center;
   padding-top: 96px;
   padding-bottom: 104px;
+}
+
+.newsletter p {
+  margin: 0 0 54px;
+}
+
+input[type="email"] {
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  width: 452px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+input[type="email"]:focus {
+  outline: none;
 }
