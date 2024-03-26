@@ -654,3 +654,15 @@ h2, .decorative-h2 {
   font-size: 16px;
   line-height: 21px;
 }
+
+.breadcrumbs-item::after {
+  content: "";
+  margin-right: 11px;
+  margin-left: 11px;
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../images/decor/icons/breadcrumbs-arrow.svg');
+}
