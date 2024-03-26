@@ -490,16 +490,12 @@ h2, .decorative-h2 {
 }
 
 .page-footer-bottom {
+  align-items: center;
+  justify-content: space-between;
   height: 120px;
   display: flex;
   box-sizing: border-box;
   padding: 40px 70px 30px;
-}
-
-.footer-social-item
-{
-
-  display: flex;
 }
 
 .social-icon-vk
@@ -519,6 +515,7 @@ h2, .decorative-h2 {
 
 .footer-social-item
 {
+  display: flex;
   width: 47px;
   height: 40px;
   background-repeat: no-repeat;
@@ -531,4 +528,12 @@ h2, .decorative-h2 {
   display: flex;
   padding: 0;
   margin: 0;
+}
+
+.footer-contacts-address-phone {
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
 }
