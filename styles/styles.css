@@ -1252,6 +1252,7 @@ h2, .decorative-h2 {
   cursor: pointer;
   width: 40px;
   text-decoration: none;
+  background-color: #F2F2F2;
 }
 
 .modal-finder-hotel-label-persons {
