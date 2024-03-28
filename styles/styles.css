@@ -79,7 +79,13 @@ h2, .decorative-h2 {
 }
 
 .selectors-container {
+  display: flex;
+  align-items: center;
+}
 
+.hotels-element-shape-selection-menu {
+  list-style-type: none;
+  display: flex;
 }
 
 .select-control {
@@ -110,6 +116,8 @@ h2, .decorative-h2 {
 
 .container-found-hotels-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .city-advantages-photo img {
