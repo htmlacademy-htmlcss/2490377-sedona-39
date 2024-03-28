@@ -699,11 +699,13 @@ h2, .decorative-h2 {
   display: flex;
 }
 
-.newsletter-email-field {
+.newsletter-email-field,
+.modal .count-selector-left-arrow {
   border-radius: 4px 0 0 4px;
 }
 
-.newsletter-button {
+.newsletter-button,
+.modal .count-selector-right-arrow {
   border-radius: 0 4px 4px 0;
 }
 
@@ -1221,6 +1223,39 @@ h2, .decorative-h2 {
 
 .modal input[type="date"] {
   padding-right: 20px;
+}
+
+.modal .count-selector {
+  text-align: center;
+  border-radius: 0;
+  padding: 12px 0;
+  width: 31px;
+}
+
+.modal .count-selector-container {
+  display: flex;
+}
+
+.modal .count-selector-right-arrow {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  display: block;
+  cursor: pointer;
+  width: 40px;
+  text-decoration: none;
+}
+
+.modal .count-selector-arrow {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  display: block;
+  cursor: pointer;
+  width: 40px;
+  text-decoration: none;
 }
 
 @supports not (-moz-appearance: none) {
