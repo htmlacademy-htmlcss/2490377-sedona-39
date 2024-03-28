@@ -84,6 +84,7 @@ h2, .decorative-h2 {
 }
 
 .hotels-element-shape-selection-menu {
+  padding: 0;
   list-style-type: none;
   display: flex;
 }
@@ -111,6 +112,7 @@ h2, .decorative-h2 {
 }
 
 .selectors-container .select-control {
+  margin-right: 62px;
   width: 292px;
 }
 
