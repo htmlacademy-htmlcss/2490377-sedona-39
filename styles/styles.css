@@ -861,6 +861,7 @@ h2, .decorative-h2 {
 
 .range-wrapper-inputs {
   display: flex;
+  padding-bottom: 36px;
 }
 
 .range-wrapper-inputs .field{
