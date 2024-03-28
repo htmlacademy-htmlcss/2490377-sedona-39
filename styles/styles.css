@@ -145,7 +145,7 @@ h2, .decorative-h2 {
 }
 
 .hotel-card-rating-star-rating {
-  cursor: none;
+  cursor: default !important;
   font-weight: 400 !important;
   color: black !important;
   grid-area: rating;
@@ -1101,4 +1101,8 @@ h2, .decorative-h2 {
   margin-left: 140px;
   max-width: 288px;
   width: 288px;
+}
+
+.pagination-item-three-dots a {
+  cursor: default;
 }
