@@ -815,6 +815,27 @@ h2, .decorative-h2 {
   max-width: 150px;
 }
 
+.range-input-title {
+  user-select: none;
+  text-transform: lowercase;
+  display: block;
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  top: 14px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.range-input-label {
+  position: relative;
+}
+
+.field.range-input {
+  display: block;
+  width: 100%;box-sizing: border-box;
+}
+
 .hotel-filter-group .control-label,
 .hotel-filter-title {
   width: 100%;
@@ -863,9 +884,12 @@ h2, .decorative-h2 {
   padding-bottom: 36px;
 }
 
-.range-wrapper-inputs .field{
+.range-wrapper-inputs > * {
   flex: 1;
   width: calc(50% - 1px);
+}
+
+.range-wrapper-inputs .field {
   padding-top: 14px;
   padding-bottom: 14px;
   font-size: 18px;
@@ -879,12 +903,15 @@ h2, .decorative-h2 {
   margin: 0;
 }
 
-.range-wrapper-inputs > :last-child {
+.range-wrapper-inputs > :last-child .field {
   border-radius: 0 4px 4px 0;
 }
 
-.range-wrapper-inputs > :first-child {
+.range-wrapper-inputs > :first-child .field {
   border-radius: 4px 0 0 4px;
+}
+
+.range-wrapper-inputs > :first-child{
   margin-right: 2px;
 }
 
