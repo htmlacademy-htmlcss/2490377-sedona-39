@@ -75,14 +75,16 @@ h2, .decorative-h2 {
 
 .hotel-list {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
+  gap: 20px;
 }
 
 .hotel-card {
   gap: 16px 20px;
   margin: 0;
   padding: 20px;
-  width: 300px;
+  width: 340px;
   display: grid;
   grid-template-areas:
     "photo photo"
@@ -95,6 +97,7 @@ h2, .decorative-h2 {
   grid-auto-rows: auto;
   border: 2px solid #E6E6E6;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .hotel-card-image {
