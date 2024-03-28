@@ -1073,15 +1073,13 @@ h2, .decorative-h2 {
 
 .range-wrapper-inputs input[type="number"]::-webkit-outer-spin-button,
 .range-wrapper-inputs input[type="number"]::-webkit-inner-spin-button,
-.modal input[type="number"]::-webkit-inner-spin-button
-{
+.modal input[type="number"]::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
 
 .range-wrapper-inputs input[type="number"],
-.modal input[type="number"]
-{
+.modal input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -1273,14 +1271,14 @@ h2, .decorative-h2 {
   width: 124px;
 }
 
-
 @supports not (-moz-appearance: none) {
-    .modal input[type="date"] {
-      background-image: url('../images/ux/date.svg');
-      background-repeat: no-repeat;
-      background-position: right 20px center;
-    }
-    .modal input[type="date"]::-webkit-calendar-picker-indicator {
-      display: none;
-    }
+  .modal input[type="date"] {
+    background-image: url('../images/ux/date.svg');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+  }
+
+  .modal input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
 }
