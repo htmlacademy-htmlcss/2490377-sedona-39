@@ -1255,6 +1255,7 @@ h2, .decorative-h2 {
 }
 
 .modal-finder-hotel-label-persons {
+  margin-bottom: 25px;
   display: flex;
 }
 
