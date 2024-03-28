@@ -1258,6 +1258,16 @@ h2, .decorative-h2 {
   text-decoration: none;
 }
 
+.modal-finder-hotel-label-persons {
+  display: flex;
+}
+
+.modal-finder-hotel-label-persons .modal-finder-hotel-label {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+
 @supports not (-moz-appearance: none) {
     .modal input[type="date"] {
       background-image: url('../images/ux/date.svg');

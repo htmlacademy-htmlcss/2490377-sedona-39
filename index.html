@@ -203,27 +203,29 @@
           </div>
           <em class="info-box">На эти даты есть свободные номера. Пока есть.</em>
         </label>
-        <label class="modal-finder-hotel-label">
-          <em class="field-title">
-            Взрослые:
-          </em>
-          <div class="count-selector-container">
-            <button class="count-selector-arrow count-selector-left-arrow"></button>
-            <input class="count-selector field" value="2" type="number" name="adults" min="1" required>
-            <button class="count-selector-arrow count-selector-right-arrow"></button>
-          </div>
-        </label>
-        <label class="modal-finder-hotel-label">
-          <em class="field-title">
-            Дети:
-            <span class="info-icon" title="Укажите количество детей">i</span>
-          </em>
-          <div class="count-selector-container">
-            <button class="count-selector-arrow count-selector-left-arrow"></button>
-            <input class="count-selector field" value="2" type="number" name="children" min="0" required>
-            <button class="count-selector-arrow count-selector-right-arrow"></button>
-          </div>
-        </label>
+        <div class="modal-finder-hotel-label-persons">
+          <label class="modal-finder-hotel-label">
+            <em class="field-title">
+              Взрослые:
+            </em>
+            <div class="count-selector-container">
+              <button class="count-selector-arrow count-selector-left-arrow"></button>
+              <input class="count-selector field" value="2" type="number" name="adults" min="1" required>
+              <button class="count-selector-arrow count-selector-right-arrow"></button>
+            </div>
+          </label>
+          <label class="modal-finder-hotel-label">
+            <em class="field-title">
+              Дети:
+              <span class="info-icon" title="Укажите количество детей">i</span>
+            </em>
+            <div class="count-selector-container">
+              <button class="count-selector-arrow count-selector-left-arrow"></button>
+              <input class="count-selector field" value="2" type="number" name="children" min="0" required>
+              <button class="count-selector-arrow count-selector-right-arrow"></button>
+            </div>
+          </label>
+        </div>
         <button class="button action-button submit-button" type="submit">Найти</button>
       </form>
     </section>
