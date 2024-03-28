@@ -75,9 +75,11 @@ h2, .decorative-h2 {
 
 .hotel-list {
   display: flex;
+  padding: 0;
 }
 
 .hotel-card {
+  gap: 16px 20px;
   margin: 0;
   padding: 20px;
   width: 300px;
@@ -114,6 +116,8 @@ h2, .decorative-h2 {
 }
 
 .hotel-card-title {
+  margin: 0;
+  padding: 0;
   word-break: break-all;
   overflow-wrap: break-word;
   grid-area: title;
@@ -136,6 +140,9 @@ h2, .decorative-h2 {
 }
 
 .hotel-card-rating-star-rating {
+  cursor: none;
+  font-weight: 400 !important;
+  color: black !important;
   grid-area: rating;
 }
 
@@ -542,6 +549,7 @@ h2, .decorative-h2 {
 }
 
 .button {
+  font-style: normal;
   border: none;
   box-shadow: none;
   display: inline-block;
@@ -558,6 +566,18 @@ h2, .decorative-h2 {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 4px;
+}
+
+.hotel-card-type,
+.hotel-card-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-card-price {
+  text-align: right;
 }
 
 .action-button {
@@ -874,7 +894,6 @@ h2, .decorative-h2 {
   margin-bottom: 16px;
 }
 
-
 .control-input[type="checkbox"]:checked + .control-mark {
   background-image: url('../images/ux/checkbox.svg');
   background-size: contain;
@@ -910,7 +929,6 @@ h2, .decorative-h2 {
   padding: 0;
   box-sizing: content-box;
 }
-
 
 .toggle-min,
 .toggle-max {
