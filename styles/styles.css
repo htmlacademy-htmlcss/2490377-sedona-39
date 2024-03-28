@@ -73,6 +73,19 @@ h2, .decorative-h2 {
   grid-template-rows: repeat(3, minmax(385px, auto)) minmax(246px, auto);
 }
 
+.information-search-result-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.selectors-container {
+
+}
+
+.container-found-hotels-header {
+  display: flex;
+}
+
 .city-advantages-photo img {
   display: block;
   width: 100%;

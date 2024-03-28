@@ -155,36 +155,39 @@
       </form>
       </div>
       <div class="container-found-hotels">
-        <p>
-          <em class="information-search-result">
+       <div class="container-found-hotels-header">
+        <p class="information-search-result-wrapper">
+          <em class="information-search-result decorative-h1">
             Найдено гостиниц: <span class="information-search-result-count">38</span>
           </em>
         </p>
 
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="popular">Сначала популярные</option>
-          <option value="expensive">Сначала дорогие</option>
-        </select>
+        <div class="selectors-container">
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="popular">Сначала популярные</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
 
-        <ul class="hotels-element-shape-selection-menu" aria-label="Вид отображения элементов">
-          <li class="hotels-element-shape-item">
-            <a class="hotels-element-shape-button hotels-element-shape-button-cards-mode hotels-element-shape-button-light" href="#">
-              <span class="visually-hidden">Отображение элементов в виде карточек</span>
-            </a>
-          </li>
-          <li class="hotels-element-shape-item">
-            <a class="hotels-element-shape-button hotels-element-shape-button-sketch-mode" href="#">
-              <span class="visually-hidden">Отображение элементов в виде крупных эскзиов</span>
-            </a>
-          </li>
-          <li class="hotels-element-shape-item hotels-element-shape-button-list-mode">
-            <a class="hotels-element-shape-button" href="#">
-              <span class="visually-hidden">Отображение элементов в виде списка</span>
-            </a>
-          </li>
-        </ul>
-
+          <ul class="hotels-element-shape-selection-menu" aria-label="Вид отображения элементов">
+            <li class="hotels-element-shape-item">
+              <a class="hotels-element-shape-button hotels-element-shape-button-cards-mode hotels-element-shape-button-light" href="#">
+                <span class="visually-hidden">Отображение элементов в виде карточек</span>
+              </a>
+            </li>
+            <li class="hotels-element-shape-item">
+              <a class="hotels-element-shape-button hotels-element-shape-button-sketch-mode" href="#">
+                <span class="visually-hidden">Отображение элементов в виде крупных эскзиов</span>
+              </a>
+            </li>
+            <li class="hotels-element-shape-item hotels-element-shape-button-list-mode">
+              <a class="hotels-element-shape-button" href="#">
+                <span class="visually-hidden">Отображение элементов в виде списка</span>
+              </a>
+            </li>
+          </ul>
+         </div>
+        </div>
         <ul class="hotel-list">
           <li class="hotel-card">
             <a class="hotel-card" href="hotel.html">
