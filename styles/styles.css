@@ -1274,6 +1274,10 @@ h2, .decorative-h2 {
   width: 124px;
 }
 
+.modal .info-icon:hover em {
+  opacity: 1;
+}
+
 .modal .info-icon {
   display: inline-block;
   width: 26px;
@@ -1300,6 +1304,7 @@ h2, .decorative-h2 {
 }
 
 .modal .info-icon em {
+  opacity: 0;
   left: -128px;
   top: 40px;
   padding: 15px 18px 18px 22px;
