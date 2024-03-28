@@ -1288,9 +1288,20 @@ h2, .decorative-h2 {
   background-color: #82B3D3;
 }
 
+.modal .info-icon em::after {
+  content: "";
+  top: -5px;
+  left: 132px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #333333;
+  transform: rotate(45deg);
+}
+
 .modal .info-icon em {
   left: -128px;
-  top: 50px;
+  top: 40px;
   padding: 15px 18px 18px 22px;
   position: absolute;
   display: flex;
