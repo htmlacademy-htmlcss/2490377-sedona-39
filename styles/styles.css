@@ -118,6 +118,7 @@ h2, .decorative-h2 {
 
 .container-found-hotels-header {
   display: flex;
+  height: 49px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
@@ -691,7 +692,6 @@ h2, .decorative-h2 {
 }
 
 .container-found-hotels {
-  background: #2fb42b;
   padding: 50px 70px 60px;
 }
 
