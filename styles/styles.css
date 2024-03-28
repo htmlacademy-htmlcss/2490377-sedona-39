@@ -135,6 +135,10 @@ h2, .decorative-h2 {
   background-position: center;
 }
 
+.hotels-element-shape-item-selected a {
+  border: 2px solid black;
+}
+
 .hotels-element-shape-item {
  padding-left: 8px;
 }
