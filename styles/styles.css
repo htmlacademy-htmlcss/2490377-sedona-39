@@ -1070,12 +1070,16 @@ h2, .decorative-h2 {
 }
 
 .range-wrapper-inputs input[type="number"]::-webkit-outer-spin-button,
-.range-wrapper-inputs input[type="number"]::-webkit-inner-spin-button {
+.range-wrapper-inputs input[type="number"]::-webkit-inner-spin-button,
+.modal input[type="number"]::-webkit-inner-spin-button
+{
   appearance: none;
   margin: 0;
 }
 
-.range-wrapper-inputs input[type="number"] {
+.range-wrapper-inputs input[type="number"],
+.modal input[type="number"]
+{
   -moz-appearance: textfield;
 }
 
