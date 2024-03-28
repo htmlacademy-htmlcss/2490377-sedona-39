@@ -127,8 +127,7 @@ h2, .decorative-h2 {
 .hotel-card-price,
 .hotel-card-title,
 .hotel-card-rating-star-rating,
-.modal-finder-hotel .field-title
-{
+.modal-finder-hotel .field-title {
   word-break: break-all;
   overflow-wrap: break-word;
 }
@@ -1133,6 +1132,46 @@ h2, .decorative-h2 {
   border-radius: 30px;
 }
 
+.modal .submit-button {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.modal .field-title {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.modal .field {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 20px;
+  background-color: #F2F2F2;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.modal-finder-hotel-label .info-box.info-box-error {
+  color: #FF5757;
+}
+
+.modal-finder-hotel-label .info-box {
+  margin-top: 114px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: black;
+  margin-left: 157px;
+}
+
+
 .modal-close-button {
   position: absolute;
   padding: 0;
@@ -1149,19 +1188,22 @@ h2, .decorative-h2 {
   cursor: pointer;
 }
 
-.modal-finder-hotel{
+.modal-finder-hotel {
+  row-gap: 23px;
   display: flex;
   flex-direction: column;
 }
 
-.modal-finder-hotel label {
+.modal-finder-hotel .input-container {
+  margin-bottom: 4px;
+  align-items: center;
   display: flex;
 }
 
 .modal-finder-hotel .field-title {
   display: block;
   margin-right: 7px;
-  width: 130px;
+  width: 137px;
 }
 
 .modal-title {

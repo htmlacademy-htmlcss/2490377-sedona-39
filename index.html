@@ -186,33 +186,38 @@
       <h2 class="modal-title decorative-h1">Поиск гостиницы в Седоне</h2>
 
       <form class="modal-finder-hotel">
-        <label>
-          <em class="field-title">
-            Дата заезда:
-          </em>
-          <input class="field" type="date" name="arrival-date" required>
+        <label class="modal-finder-hotel-label">
+          <div class="input-container">
+            <em class="field-title">
+              Дата заезда:
+            </em>
+            <input class="field" value="2020-04-27" type="date" name="arrival-date" required>
+          </div>
+          <em class="info-box info-box-error">Мы не можем отправить вас в прошлое.</em>
         </label>
-        <label>
-          <em class="field-title">
-            Дата выезда:
-          </em>
-          <input class="field" type="date" name="departure-date" required>
+        <label class="modal-finder-hotel-label">
+          <div class="input-container">
+            <em class="field-title">
+              Дата выезда:
+            </em>
+            <input class="field" value="2023-09-01" type="date" name="departure-date" required>
+          </div>
+          <em class="info-box">На эти даты есть свободные номера. Пока есть.</em>
         </label>
-        <label>
+        <label class="modal-finder-hotel-label">
           <em class="field-title">
             Взрослые:
           </em>
           <input class="field" type="number" name="adults" min="1" required>
         </label>
-
-        <label>
+        <label class="modal-finder-hotel-label">
           <em class="field-title">
             Дети:
             <span class="info-icon" title="Укажите количество детей">i</span>
           </em>
-          <input class="field" type="number"  name="children" min="0" required>
+          <input class="field" type="number" name="children" min="0" required>
         </label>
-        <button class="button" type="submit">Найти</button>
+        <button class="button action-button submit-button" type="submit">Найти</button>
       </form>
 
     </section>
