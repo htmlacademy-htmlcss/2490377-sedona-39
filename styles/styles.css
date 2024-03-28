@@ -1270,7 +1270,42 @@ h2, .decorative-h2 {
 }
 
 .modal-finder-hotel-label-persons > :last-child .field-title {
+  position: relative;
   width: 124px;
+}
+
+.modal .info-icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  left: 59px;
+  border-radius: 50%;
+  background-image: url('../images/ux/i.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-color: #82B3D3;
+}
+
+.modal .info-icon + em {
+  padding: 15px 18px 18px 22px;
+  position: absolute;
+  display: flex;
+  min-width: 256px;
+  min-height: 143px;
+  background-color: #333333;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  align-items: center;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+
 }
 
 @supports not (-moz-appearance: none) {
