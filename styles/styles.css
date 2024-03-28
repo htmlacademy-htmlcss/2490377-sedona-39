@@ -1138,6 +1138,7 @@ h2, .decorative-h2 {
   padding: 64px 70px;
   background-color: #ffffff;
   border-radius: 30px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
 .modal .submit-button {
