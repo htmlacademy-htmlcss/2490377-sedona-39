@@ -1288,7 +1288,9 @@ h2, .decorative-h2 {
   background-color: #82B3D3;
 }
 
-.modal .info-icon + em {
+.modal .info-icon em {
+  left: -128px;
+  top: 50px;
   padding: 15px 18px 18px 22px;
   position: absolute;
   display: flex;
@@ -1305,7 +1307,7 @@ h2, .decorative-h2 {
   align-items: center;
   overflow-wrap: break-word;
   word-break: keep-all;
-
+  text-align: left;
 }
 
 @supports not (-moz-appearance: none) {
