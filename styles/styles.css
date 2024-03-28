@@ -126,7 +126,9 @@ h2, .decorative-h2 {
 
 .hotel-card-price,
 .hotel-card-title,
-.hotel-card-rating-star-rating {
+.hotel-card-rating-star-rating,
+.modal-finder-hotel .field-title
+{
   word-break: break-all;
   overflow-wrap: break-word;
 }
@@ -1122,10 +1124,11 @@ h2, .decorative-h2 {
 }
 
 .modal {
+  box-sizing: border-box;
   width: 717px;
   position: relative;
   margin: auto;
-  padding: 40px;
+  padding: 64px 70px;
   background-color: #ffffff;
   border-radius: 30px;
 }
@@ -1149,4 +1152,20 @@ h2, .decorative-h2 {
 .modal-finder-hotel{
   display: flex;
   flex-direction: column;
+}
+
+.modal-finder-hotel label {
+  display: flex;
+}
+
+.modal-finder-hotel .field-title {
+  display: block;
+  margin-right: 7px;
+  width: 130px;
+}
+
+.modal-title {
+  margin: 0 0 64px;
+  padding: 0;
+  text-align: left;
 }

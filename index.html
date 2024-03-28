@@ -186,20 +186,33 @@
       <h2 class="modal-title decorative-h1">Поиск гостиницы в Седоне</h2>
 
       <form class="modal-finder-hotel">
-        <label for="arrivalDate">Дата заезда:</label>
-        <input type="date" id="arrivalDate" name="arrivalDate" required>
+        <label>
+          <em class="field-title">
+            Дата заезда:
+          </em>
+          <input class="field" type="date" name="arrival-date" required>
+        </label>
+        <label>
+          <em class="field-title">
+            Дата выезда:
+          </em>
+          <input class="field" type="date" name="departure-date" required>
+        </label>
+        <label>
+          <em class="field-title">
+            Взрослые:
+          </em>
+          <input class="field" type="number" name="adults" min="1" required>
+        </label>
 
-        <label for="departureDate">Дата выезда:</label>
-        <input type="date" id="departureDate" name="departureDate" required>
-
-        <label for="adults">Взрослые:</label>
-        <input type="number" id="adults" name="adults" min="1" required>
-
-        <label for="children">Дети:</label>
-        <input type="number" id="children" name="children" min="0" required>
-        <span class="info-icon" title="Укажите количество детей">i</span>
-
-        <button type="submit">Найти</button>
+        <label>
+          <em class="field-title">
+            Дети:
+            <span class="info-icon" title="Укажите количество детей">i</span>
+          </em>
+          <input class="field" type="number"  name="children" min="0" required>
+        </label>
+        <button class="button" type="submit">Найти</button>
       </form>
 
     </section>
