@@ -73,6 +73,76 @@ h2, .decorative-h2 {
   grid-template-rows: repeat(3, minmax(385px, auto)) minmax(246px, auto);
 }
 
+.hotel-list {
+  display: flex;
+}
+
+.hotel-card {
+  margin: 0;
+  padding: 20px;
+  width: 300px;
+  display: grid;
+  grid-template-areas:
+    "photo photo"
+    "title title"
+    "type price"
+    "details favourites"
+    "stars rating";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 212px;
+  grid-auto-rows: auto;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.hotel-card-image {
+  grid-area: photo;
+  background-color: rgba(131,	179,	211, 0.12);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotel-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hotel-card-title {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  grid-area: title;
+}
+
+.hotel-card-price {
+  grid-area: price;
+}
+
+.hotel-card-type {
+  grid-area: type;
+}
+
+.hotel-card-button-more-details {
+  grid-area: details;
+}
+
+.hotel-card-button-to-favorites {
+  grid-area: favourites;
+}
+
+.hotel-card-rating-star-rating {
+  grid-area: rating;
+}
+
+.hotel-card-hotel-stars {
+  grid-area: stars;
+}
+
 .information-search-result-wrapper {
   margin: 0;
   padding: 0;
