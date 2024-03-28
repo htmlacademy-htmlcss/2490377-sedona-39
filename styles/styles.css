@@ -1265,6 +1265,15 @@ h2, .decorative-h2 {
   display: flex;
 }
 
+.modal-finder-hotel-label-persons > :first-child {
+  margin-right: 88px;
+}
+
+.modal-finder-hotel-label-persons > :last-child .field-title {
+  width: 124px;
+}
+
+
 @supports not (-moz-appearance: none) {
     .modal input[type="date"] {
       background-image: url('../images/ux/date.svg');
