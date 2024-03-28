@@ -813,7 +813,6 @@ h2, .decorative-h2 {
   padding: 0;
   border: none;
   max-width: 150px;
-  background-color: #2fb42b;
 }
 
 .hotel-filter-group .control-label,
@@ -903,6 +902,8 @@ h2, .decorative-h2 {
 }
 
 .hotel-filter-price-container {
+  margin-right: 70px;
+  margin-left: 140px;
   max-width: 288px;
   width: 288px;
 }
