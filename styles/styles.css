@@ -82,6 +82,32 @@ h2, .decorative-h2 {
 
 }
 
+.select-control {
+  width: 100%;
+  padding: 14px 48px 14px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: white;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  font-family: 'PT Sans', serif;
+  background-image: url('../images/ux/select-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
+}
+
+.select-control:hover,
+.select-control:focus {
+  border-color: #68A2CA;
+}
+
+.selectors-container .select-control {
+  width: 292px;
+}
+
 .container-found-hotels-header {
   display: flex;
 }
@@ -846,7 +872,9 @@ h2, .decorative-h2 {
 
 .field.range-input {
   display: block;
-  width: 100%;box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 40px;
 }
 
 .hotel-filter-group .control-label,
