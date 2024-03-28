@@ -184,7 +184,7 @@ h2, .decorative-h2 {
   background-color: white;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  font-family: 'PT Sans', serif;
+  font-family: 'PT Sans', sans-serif;
   background-image: url('../images/ux/select-arrow.svg');
   background-repeat: no-repeat;
   background-position: right 20px center;
@@ -682,7 +682,7 @@ h2, .decorative-h2 {
   padding-bottom: 14px;
   padding-left: 20px;
   width: 452px;
-  font-family: 'PT Sans', serif;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   border-radius: 4px;
