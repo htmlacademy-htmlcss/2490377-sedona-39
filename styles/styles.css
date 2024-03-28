@@ -865,7 +865,27 @@ h2, .decorative-h2 {
 
 .range-wrapper-inputs .field{
   flex: 1;
-  width: 50%;
+  width: calc(50% - 1px);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.range-wrapper-inputs .field::-webkit-outer-spin-button,
+.range-wrapper-inputs .field::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-wrapper-inputs > :last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.range-wrapper-inputs > :first-child {
+  border-radius: 4px 0 0 4px;
+  margin-right: 2px;
 }
 
 .range-scale {
