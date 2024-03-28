@@ -1279,6 +1279,7 @@ h2, .decorative-h2 {
 }
 
 .modal .info-icon {
+  cursor: pointer;
   display: inline-block;
   width: 26px;
   height: 26px;
