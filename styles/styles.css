@@ -1158,6 +1158,8 @@ h2, .decorative-h2 {
 }
 
 .modal .field {
+  width: 440px;
+  box-sizing: border-box;
   padding-bottom: 12px;
   padding-top: 12px;
   padding-left: 20px;
@@ -1212,17 +1214,13 @@ h2, .decorative-h2 {
 .modal-finder-hotel .field-title {
   display: block;
   margin-right: 7px;
-  width: 137px;
+  width: 130px;
 }
 
 .modal-title {
   margin: 0 0 64px;
   padding: 0;
   text-align: left;
-}
-
-.modal input[type="date"] {
-  padding-right: 20px;
 }
 
 .modal .count-selector {
