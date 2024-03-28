@@ -406,6 +406,10 @@ h2, .decorative-h2 {
   background-color: #82B3D3;
 }
 
+.transparent-button {
+  background-color: transparent;
+}
+
 .light-button,
 .pagination-item-selected .button {
   background-color: #F2F2F2;
@@ -807,4 +811,24 @@ h2, .decorative-h2 {
   font-size: 20px;
   line-height: 24px;
   color: white;
+}
+
+.catalog-filter
+{
+  display: flex;
+}
+
+.catalog-filter > :first-child {
+  margin-right: 70px;
+}
+
+.hotel-filter-buttons-container {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  width: 191px;
+}
+
+.hotel-filter-buttons-container > :first-child {
+  margin-bottom: 32px;
 }
