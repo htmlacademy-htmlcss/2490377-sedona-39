@@ -118,6 +118,40 @@ h2, .decorative-h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+}
+
+.hotels-element-shape-item a{
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #E5E5E5;
+  background-color: white;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hotels-element-shape-item {
+ padding-left: 8px;
+}
+
+.hotels-element-shape-button-cards-mode a{
+  background-image: url('../images/decor/icons/element-shape-button-cards-mode.svg');
+}
+
+.hotels-element-shape-button-list-mode a{
+  background-image: url('../images/decor/icons/element-shape-button-list-mode.svg');
+}
+
+.hotels-element-shape-button-sketch-mode a{
+  background-image: url('../images/decor/icons/element-shape-button-sketch-mode.svg');
+}
+
+.hotels-element-shape-item {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .city-advantages-photo img {
