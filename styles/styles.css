@@ -1069,10 +1069,14 @@ h2, .decorative-h2 {
   font-weight: 700;
 }
 
-.range-wrapper-inputs .field::-webkit-outer-spin-button,
-.range-wrapper-inputs .field::-webkit-inner-spin-button {
+.range-wrapper-inputs input[type="number"]::-webkit-outer-spin-button,
+.range-wrapper-inputs input[type="number"]::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.range-wrapper-inputs input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .range-wrapper-inputs > :last-child .field {
@@ -1212,12 +1216,16 @@ h2, .decorative-h2 {
 }
 
 .modal input[type="date"] {
-  background-image: url('../images/ux/date.svg');
-  background-repeat: no-repeat;
   padding-right: 20px;
-  background-position: right 20px center;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
+@supports not (-moz-appearance: none) {
+    .modal input[type="date"] {
+      background-image: url('../images/ux/date.svg');
+      background-repeat: no-repeat;
+      background-position: right 20px center;
+    }
+    .modal input[type="date"]::-webkit-calendar-picker-indicator {
+      display: none;
+    }
 }
