@@ -218,9 +218,11 @@
             Дети:
             <span class="info-icon" title="Укажите количество детей">i</span>
           </em>
-          <button class="count-selector-left-arrow"></button>
-          <input class="count-selector field" value="2" type="number" name="children" min="0" required>
-          <button class="count-selector-right-arrow"></button>
+          <div class="count-selector-container">
+            <button class="count-selector-arrow count-selector-left-arrow"></button>
+            <input class="count-selector field" value="2" type="number" name="children" min="0" required>
+            <button class="count-selector-arrow count-selector-right-arrow"></button>
+          </div>
         </label>
         <button class="button action-button submit-button" type="submit">Найти</button>
       </form>
