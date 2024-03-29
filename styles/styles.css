@@ -299,8 +299,8 @@ body {
   flex-direction: column-reverse;
 }
 
-.city-advantages-list li:nth-child(6) .decorative-h1 {
-  margin: 0 0 20px;
+.city-advantages-item:nth-child(6) .decorative-h1 {
+  margin: 0 0 200px;
 }
 
 .city-advantages-list li:nth-child(6) h3 {
