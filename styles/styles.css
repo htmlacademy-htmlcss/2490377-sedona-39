@@ -821,6 +821,16 @@ h2, .decorative-h2 {
   line-height: 40px;
 }
 
+.footer-contacts-address-phone:hover,
+.footer-contacts-address-phone:focus {
+  outline: none;
+  color: #756157;
+}
+
+.footer-contacts-address-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .newsletter-light {
   background-image: none;
 }
