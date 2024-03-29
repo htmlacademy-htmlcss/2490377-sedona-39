@@ -177,5 +177,63 @@
     </div>
   </footer>
 </div>
+<div class="modal-container">
+  <div class="modal">
+    <button class="modal-close-button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+    <section class="modal-content">
+      <h2 class="modal-title decorative-h1">Поиск гостиницы в Седоне</h2>
+      <form class="modal-finder-hotel">
+        <label class="modal-finder-hotel-label">
+          <div class="input-container">
+            <em class="field-title">
+              Дата заезда:
+            </em>
+            <input class="field" value="2020-04-27" type="date" name="arrival-date" required>
+          </div>
+          <em class="info-box info-box-error">Мы не можем отправить вас в прошлое.</em>
+        </label>
+        <label class="modal-finder-hotel-label">
+          <div class="input-container">
+            <em class="field-title">
+              Дата выезда:
+            </em>
+            <input class="field" value="2023-09-01" type="date" name="departure-date" required>
+          </div>
+          <em class="info-box">На эти даты есть свободные номера. Пока есть.</em>
+        </label>
+        <div class="modal-finder-hotel-label-persons">
+          <div class="modal-finder-hotel-label">
+            <em class="field-title">
+              Взрослые:
+            </em>
+            <div class="count-selector-container">
+              <button class="count-selector-arrow count-selector-left-arrow"></button>
+              <input class="count-selector field" value="2" type="number" name="adults" min="1" required>
+              <button class="count-selector-arrow count-selector-right-arrow"></button>
+            </div>
+          </div>
+          <div class="modal-finder-hotel-label">
+            <em class="field-title">
+              Дети:
+              <span class="info-icon" title="Укажите количество детей">
+                <em>
+                  Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                </em>
+              </span>
+            </em>
+            <div class="count-selector-container">
+              <button class="count-selector-arrow count-selector-left-arrow"></button>
+              <input class="count-selector field" value="2" type="number" name="children" min="0" required>
+              <button class="count-selector-arrow count-selector-right-arrow"></button>
+            </div>
+          </div>
+        </div>
+        <button class="button action-button submit-button" type="submit">Найти</button>
+      </form>
+    </section>
+  </div>
+</div>
 </body>
 </html>

@@ -741,7 +741,6 @@ h2, .decorative-h2 {
 .newsletter-email-field,
 .modal .count-selector-left-arrow {
   border-radius: 4px 0 0 4px;
-  background-image: url('../images/ux/button-minus.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -749,9 +748,16 @@ h2, .decorative-h2 {
 .newsletter-button,
 .modal .count-selector-right-arrow {
   border-radius: 0 4px 4px 0;
-  background-image: url('../images/ux/button-plus.svg');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.modal .count-selector-left-arrow {
+  background-image: url('../images/ux/button-minus.svg');
+}
+
+.modal .count-selector-right-arrow {
+  background-image: url('../images/ux/button-plus.svg');
 }
 
 .page-footer-bottom {
