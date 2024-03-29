@@ -943,7 +943,7 @@ body {
   display: none;
 }
 
-.breadcrumbs li:first-child a {
+.breadcrumbs-item:first-child .breadcrumbs-link {
   margin-top: 4px;
   display: block;
   float: left;
