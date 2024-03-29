@@ -949,8 +949,7 @@ h2, .decorative-h2 {
 }
 
 .control-input[type="checkbox"]:focus + .control-mark,
-.control-input[type="radio"]:focus + .control-mark
-{
+.control-input[type="radio"]:focus + .control-mark {
   width: 20px;
   height: 20px;
   top: -1px;
@@ -958,8 +957,7 @@ h2, .decorative-h2 {
   border: 3px solid #83B3D3;
 }
 
-.control-input[type="radio"]:focus + .control-mark::before
-{
+.control-input[type="radio"]:focus + .control-mark::before {
   position: absolute;
   top: 2px;
   left: 2px;
