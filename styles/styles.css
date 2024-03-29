@@ -939,11 +939,11 @@ body {
   background-image: none;
 }
 
-.breadcrumbs li:first-child a span {
+.breadcrumbs-item:first-child .breadcrumbs-link-title {
   display: none;
 }
 
-.breadcrumbs li:first-child a {
+.breadcrumbs-item:first-child .breadcrumbs-link {
   margin-top: 4px;
   display: block;
   float: left;
