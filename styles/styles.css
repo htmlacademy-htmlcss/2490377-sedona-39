@@ -756,8 +756,26 @@ body {
   background-image: url('../images/ux/button-minus.svg');
 }
 
+.modal .count-selector-left-arrow:focus {
+  outline: none;
+  background-image: url('../images/ux/button-minus-focus.svg');
+}
+
+.modal .count-selector-left-arrow:hover {
+  background-image: url('../images/ux/button-minus-hover.svg');
+}
+
 .modal .count-selector-right-arrow {
   background-image: url('../images/ux/button-plus.svg');
+}
+
+.modal .count-selector-right-arrow:hover {
+  background-image: url('../images/ux/button-plus-hover.svg');
+}
+
+.modal .count-selector-right-arrow:focus {
+  outline: none;
+  background-image: url('../images/ux/button-plus-focus.svg');
 }
 
 .page-footer-bottom {
