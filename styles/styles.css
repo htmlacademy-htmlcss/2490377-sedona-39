@@ -1177,11 +1177,11 @@ body {
   -moz-appearance: textfield;
 }
 
-.range-wrapper-inputs > :last-child .field {
+.range-input-label-max-price .field {
   border-radius: 0 4px 4px 0;
 }
 
-.range-wrapper-inputs > :first-child .field {
+.range-input-label-start-price .field {
   border-radius: 4px 0 0 4px;
 }
 
