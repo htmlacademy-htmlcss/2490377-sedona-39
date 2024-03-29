@@ -1290,6 +1290,15 @@ body {
   cursor: pointer;
 }
 
+.modal-close-button:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+  border: 2px solid #82B3D3;
+  outline: none;
+}
+
 .modal-finder-hotel {
   row-gap: 23px;
   display: flex;
