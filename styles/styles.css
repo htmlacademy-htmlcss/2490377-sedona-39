@@ -148,10 +148,10 @@ h2, .decorative-h2 {
   grid-area: favourites;
 }
 
-.hotel-card-rating-star-rating {
-  cursor: default !important;
-  font-weight: 400 !important;
-  color: black !important;
+.button.hotel-card-rating-star-rating {
+  cursor: default;
+  font-weight: 400;
+  color: black;
   grid-area: rating;
 }
 
