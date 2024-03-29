@@ -577,6 +577,17 @@ h2, .decorative-h2 {
   border-radius: 4px;
 }
 
+.button:hover,
+.button:focus {
+  outline: none;
+  background-color: #615048;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #615048;
+}
+
 .hotel-card-type,
 .hotel-card-price {
   font-style: normal;
@@ -593,12 +604,40 @@ h2, .decorative-h2 {
   background-color: #82B3D3;
 }
 
+.action-button:hover,
+.action-button:focus {
+  outline: none;
+  background-color: #68A2CA;
+}
+
 .transparent-button {
   background-color: transparent;
 }
 
+.transparent-button:hover {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.transparent-button:active {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.transparent-button:focus {
+  border: 3px solid #83B3D3;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .light-button,
 .pagination-item-selected .button {
+  background-color: #F2F2F2;
+}
+
+.light-button:focus,
+.light-button:hover,
+.light-button:active {
   background-color: #F2F2F2;
 }
 
