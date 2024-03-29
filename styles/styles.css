@@ -939,7 +939,7 @@ body {
   background-image: none;
 }
 
-.breadcrumbs li:first-child a span {
+.breadcrumbs-item:first-child .breadcrumbs-link-title {
   display: none;
 }
 
