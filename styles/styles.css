@@ -1368,11 +1368,11 @@ body {
   width: 124px;
 }
 
-.modal .info-icon:hover em {
+.info-icon:hover em {
   opacity: 1;
 }
 
-.modal .info-icon {
+.info-icon {
   cursor: pointer;
   display: inline-block;
   width: 26px;
@@ -1387,7 +1387,7 @@ body {
   background-color: #82B3D3;
 }
 
-.modal .info-icon em::after {
+.info-icon em::after {
   content: "";
   top: -5px;
   left: 132px;
@@ -1398,7 +1398,7 @@ body {
   transform: rotate(45deg);
 }
 
-.modal .info-icon em {
+.info-icon em {
   opacity: 0;
   left: -128px;
   top: 40px;
