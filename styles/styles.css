@@ -639,6 +639,7 @@ body {
 .light-button:focus,
 .light-button:hover,
 .light-button:active {
+  color: #000000;
   background-color: #F2F2F2;
 }
 
