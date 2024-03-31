@@ -288,10 +288,13 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.city-advantages-list li:nth-child(3),
+.city-advantages-list li:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 .vacation-tips-list li:nth-child(1),
 .vacation-tips-list li:nth-child(3) {
-  background-color: rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .city-advantages-list li:nth-child(6) {
@@ -724,6 +727,7 @@ body {
 
 .field {
   border: 1px solid transparent;
+  box-sizing: border-box;
   outline: none;
   margin: 0;
   font-size: 18px;
@@ -736,6 +740,7 @@ body {
   font-style: normal;
   font-weight: 400;
   border-radius: 4px;
+
 }
 
 .field:focus,
