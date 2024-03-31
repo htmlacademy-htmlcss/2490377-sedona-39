@@ -1441,3 +1441,15 @@ body {
     display: none;
   }
 }
+
+.html-academy-logo:hover g,
+.html-academy-logo:focus g
+{
+  fill: #756157;
+}
+
+.html-academy-logo:active g,
+.html-academy-logo:active g
+{
+  fill: rgb(117, 97, 87, 0.3);
+}
