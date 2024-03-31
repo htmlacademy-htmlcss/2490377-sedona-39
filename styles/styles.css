@@ -514,6 +514,7 @@ body {
 }
 
 .main-banner-background {
+  background-color: #746C79;
   width: 100%;
   height: auto;
   display: block;
@@ -705,6 +706,7 @@ body {
 .newsletter {
   color: #FFFFFF;
   background-image: url('../images/decor/backgrounds/subscribe-block.jpg');
+  background-color: #746C79;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -892,6 +894,7 @@ body {
   padding-right: 70px;
   padding-top: 35px;
   background-image: url('../images/decor/backgrounds/hotel-filter.jpg');
+  background-color: #746C79;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 412px;
