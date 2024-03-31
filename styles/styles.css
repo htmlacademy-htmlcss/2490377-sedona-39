@@ -851,7 +851,7 @@ body {
 .footer-contacts-address-phone {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: calc(50% + 15px);
   transform: translate(-50%, -50%);
   color: #000000;
   text-decoration: none;
