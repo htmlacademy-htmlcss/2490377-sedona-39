@@ -78,6 +78,7 @@ body {
   flex-wrap: wrap;
   padding: 0;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .hotel-card {
