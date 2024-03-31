@@ -1474,6 +1474,13 @@ body {
   fill: #756157;
 }
 
+.html-academy-logo,
+.vk-logo,
+.youtube-logo,
+.telegram-logo {
+  outline: none;
+}
+
 .html-academy-logo:active g
 {
   fill: rgb(117, 97, 87, 0.3);
