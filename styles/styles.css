@@ -263,6 +263,7 @@ body {
 
 .city-advantages-item,
 .vacation-tips-item {
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
