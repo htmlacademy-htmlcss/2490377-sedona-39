@@ -138,6 +138,8 @@ body {
 }
 
 .hotel-card-type {
+  word-break: break-all;
+  overflow-wrap: break-word;
   grid-area: type;
 }
 
@@ -786,6 +788,7 @@ body {
 }
 
 .page-footer-bottom {
+  position: relative;
   align-items: center;
   justify-content: space-between;
   height: 120px;
@@ -826,6 +829,13 @@ body {
   margin: 0;
 }
 
+.footer-contacts {
+  display: block;
+  left: auto;
+  right: auto;
+  position: absolute;
+}
+
 .footer-contacts-address-phone {
   color: #000000;
   text-decoration: none;
@@ -861,11 +871,12 @@ body {
 }
 
 .container-found-hotels {
-  padding: 50px 70px 60px;
+  padding: 50px 70px 52px;
 }
 
 .pagination-item .button {
   margin-right: 8px;
+  margin-bottom: 8px;
   padding: 0;
   display: block;
   width: 60px;
@@ -875,6 +886,7 @@ body {
 }
 
 .pagination {
+  flex-wrap: wrap;
   display: flex;
   justify-content: flex-start;
   list-style: none;
