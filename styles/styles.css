@@ -870,8 +870,9 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
-.newsletter-light {
+.newsletter.newsletter-light {
   background-image: none;
+  background-color: #ffffff;
 }
 
 .newsletter-light .newsletter-title {
