@@ -611,6 +611,7 @@ body {
 }
 
 .transparent-button {
+  border: 3px solid transparent;
   background-color: transparent;
 }
 
