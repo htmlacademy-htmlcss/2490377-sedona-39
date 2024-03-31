@@ -803,18 +803,6 @@ body {
   text-align: center;
 }
 
-.social-icon-vk {
-  background-image: url('../images/decor/icons/social-vk.svg');
-}
-
-.social-icon-youtube {
-  background-image: url('../images/decor/icons/social-youtube.svg');
-}
-
-.social-icon-telegram {
-  background-image: url('../images/decor/icons/social-telegram.svg');
-}
-
 .footer-social-item {
   display: flex;
   width: 47px;
@@ -1448,8 +1436,24 @@ body {
   fill: #756157;
 }
 
-.html-academy-logo:active g,
 .html-academy-logo:active g
 {
   fill: rgb(117, 97, 87, 0.3);
+}
+
+.vk-logo:hover path,
+.vk-logo:focus path,
+.telegram-logo:hover path,
+.telegram-logo:focus path,
+.youtube-logo:hover path,
+.youtube-logo:focus path
+{
+  fill: #68A2CA;
+}
+
+.vk-logo:active path,
+.telegram-logo:active path,
+.youtube-logo:active path
+{
+  fill: rgba(104, 162, 202, 0.3);
 }
