@@ -1469,6 +1469,7 @@ body {
 .html-academy-logo:hover g,
 .html-academy-logo:focus g
 {
+  outline: none;
   fill: #756157;
 }
 
@@ -1484,6 +1485,7 @@ body {
 .youtube-logo:hover path,
 .youtube-logo:focus path
 {
+  outline: none;
   fill: #68A2CA;
 }
 
