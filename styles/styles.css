@@ -643,6 +643,24 @@ body {
   background-color: #82B3D3;
 }
 
+.favorites-button {
+  background-color: #7DB54F;
+}
+
+.favorites-button:hover,
+.favorites-button:focus {
+  outline: none;
+  background-color: #6C9E42;
+}
+
+.favorites-button:active {
+  outline: none;
+  background-color: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
 .action-button:hover,
 .action-button:focus {
   outline: none;
