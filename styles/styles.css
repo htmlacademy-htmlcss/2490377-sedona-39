@@ -209,8 +209,9 @@ body {
 }
 
 .select-control:disabled {
-  border-color: rgba(0, 0, 0, 0.3);
-  color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
+  border-color: #000000;
+  color: #000000;
 }
 
 .selectors-container .select-control {
