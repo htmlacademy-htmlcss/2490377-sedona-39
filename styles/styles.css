@@ -1549,11 +1549,14 @@ body {
   width: 124px;
 }
 
-.info-icon:hover em {
+.info-icon:hover em,
+.info-icon:focus em
+{
   opacity: 1;
 }
 
 .info-icon {
+  border: none;
   cursor: pointer;
   display: inline-block;
   width: 26px;
