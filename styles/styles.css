@@ -204,7 +204,13 @@ body {
 
 .select-control:hover,
 .select-control:focus {
+  outline: none;
   border-color: #68A2CA;
+}
+
+.select-control:disabled {
+  border-color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .selectors-container .select-control {
