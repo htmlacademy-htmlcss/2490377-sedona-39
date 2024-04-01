@@ -928,6 +928,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 412px;
+  box-sizing: border-box;
 }
 
 .breadcrumbs {
