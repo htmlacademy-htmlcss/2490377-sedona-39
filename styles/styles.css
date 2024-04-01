@@ -1160,7 +1160,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  top: 14px;
+  top: 12px;
   right: 20px;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -1170,6 +1170,7 @@ body {
 }
 
 .field.range-input {
+  height: 48px;
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -1220,7 +1221,7 @@ body {
 
 .range-wrapper-inputs {
   display: flex;
-  padding-bottom: 36px;
+  padding-bottom: 44px;
 }
 
 .range-wrapper-inputs > * {
@@ -1275,7 +1276,7 @@ body {
 
 .hotel-filter-price-container {
   margin-right: 70px;
-  margin-left: 140px;
+  margin-left: 150px;
   max-width: 288px;
   width: 288px;
 }
