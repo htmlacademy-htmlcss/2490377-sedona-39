@@ -654,6 +654,20 @@ body {
   background-color: transparent;
 }
 
+.modal .field:placeholder-shown {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.modal .field:hover {
+  background-color: #E6E6E6;
+}
+
+.modal .input-container .field:focus {
+  outline: none;
+  background-color: #E6E6E6;
+  box-shadow: 0 0 0 3px #83B3D3;
+}
+
 .transparent-button:disabled {
   color: rgba(255, 255, 255, 0.1);
 }
