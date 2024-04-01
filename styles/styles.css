@@ -568,6 +568,11 @@ body {
   width: 120px;
 }
 
+.range-bar {
+  left: 0;
+  width: 226px;
+}
+
 .main-banner {
   background:
     url('../images/decor/main-banner-divider.svg') bottom center / 100% no-repeat,
