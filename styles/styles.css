@@ -181,6 +181,7 @@ body {
 
 .hotels-element-shape-selection-menu {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   display: flex;
 }
@@ -225,7 +226,6 @@ body {
 
 .container-found-hotels-header {
   display: flex;
-  height: 49px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
