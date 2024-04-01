@@ -1549,14 +1549,19 @@ body {
   width: 124px;
 }
 
-.info-icon:hover em,
-.info-icon:focus em
+.info-icon:hover + .info-description,
+.info-icon:focus + .info-description
 {
   opacity: 1;
 }
 
+.info-icon-wrapper {
+  position: relative;
+}
+
 .info-icon {
   border: none;
+  top: 0;
   cursor: pointer;
   display: inline-block;
   width: 26px;
@@ -1571,7 +1576,7 @@ body {
   background-color: #82B3D3;
 }
 
-.info-icon em::after {
+.info-icon + .info-description::after {
   content: "";
   top: -5px;
   left: 132px;
@@ -1582,9 +1587,9 @@ body {
   transform: rotate(45deg);
 }
 
-.info-icon em {
+.info-icon + .info-description {
   opacity: 0;
-  left: -128px;
+  left: -68px;
   top: 40px;
   padding: 15px 18px 18px 22px;
   position: absolute;
