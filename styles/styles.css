@@ -611,6 +611,11 @@ body {
   border-radius: 4px;
 }
 
+.button:disabled {
+  color: #ffffff;
+  background-color: #E5E5E5;
+}
+
 .button:hover,
 .button:focus {
   outline: none;
@@ -647,6 +652,10 @@ body {
 .transparent-button {
   border: 3px solid transparent;
   background-color: transparent;
+}
+
+.transparent-button:disabled {
+  color: rgba(255, 255, 255, 0.1);
 }
 
 .transparent-button:hover {
