@@ -1452,6 +1452,10 @@ body {
   flex-direction: column;
 }
 
+.modal .submit-button {
+  border-radius: 10px;
+}
+
 .modal-finder-hotel .input-container {
   margin-bottom: 2px;
   align-items: center;
