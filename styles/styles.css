@@ -1549,7 +1549,7 @@ body {
 .info-icon:hover + .info-description,
 .info-icon:focus + .info-description
 {
-  opacity: 1;
+  visibility: visible;
 }
 
 .info-icon-wrapper {
@@ -1585,7 +1585,7 @@ body {
 }
 
 .info-icon + .info-description {
-  opacity: 0;
+  visibility: hidden;
   left: -68px;
   top: 40px;
   padding: 15px 18px 18px 22px;
