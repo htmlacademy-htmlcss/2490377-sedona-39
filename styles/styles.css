@@ -864,12 +864,16 @@ body {
 
 .page-footer-bottom {
   position: relative;
+  display: grid;
   align-items: center;
-  justify-content: space-between;
-  height: 120px;
-  display: flex;
+  grid-template-columns: 280px auto 280px;
+  gap: 20px;
   box-sizing: border-box;
   padding: 40px 70px 30px;
+}
+
+.footer-copyright {
+  margin-left: auto;
 }
 
 .notification-counter {
@@ -905,17 +909,15 @@ body {
 }
 
 .footer-contacts {
-  left: 0;
-  display: block;
-  width: 100%;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-contacts-address-phone {
-  position: absolute;
-  top: 50%;
-  left: calc(50% + 15px);
-  transform: translate(-50%, -50%);
+  padding-bottom: 5px;
   color: #000000;
   text-decoration: none;
   font-style: normal;
