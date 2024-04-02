@@ -314,6 +314,10 @@ body {
   padding-bottom: 64px;
 }
 
+.city-advantages-comfortable-service-container .decorative-h2 {
+  margin-bottom: 0;
+}
+
 .city-advantages-item:nth-child(6) .decorative-h1 {
   margin: 0 0 20px;
 }
@@ -863,6 +867,7 @@ body {
 }
 
 .page-footer-bottom {
+  min-height: 120px;
   position: relative;
   display: grid;
   align-items: center;
