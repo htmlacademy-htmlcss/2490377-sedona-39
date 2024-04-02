@@ -63,14 +63,8 @@ body {
 
 .city-advantages-grid-container {
   width: 100%;
-  display: grid;
-  grid-template-areas:
-    "advantage-1 photo-1 photo-1"
-    "advantage-2 advantage-3 advantage-4"
-    "photo-2 photo-2 advantage-5"
-    "advantage-6 advantage-6 advantage-6";
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, minmax(385px, auto)) minmax(246px, auto);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hotel-list {
@@ -276,23 +270,14 @@ body {
   background-image: url('../images/decor/icons/element-shape-button-sketch-mode.svg');
 }
 
-.city-advantages-photo img {
+.city-advantages-item img {
   display: block;
-  width: 100%;
+  width: 800px;
   height: auto;
 }
 
-.city-advantages-photo-1 {
-  grid-area: photo-1;
-}
-
-.city-advantages-photo-2 {
-  grid-area: photo-2;
-}
-
-.city-advantages-item,
+.city-advantages-item-info,
 .vacation-tips-item {
-  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -323,12 +308,10 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.city-advantages-list li:nth-child(6) {
-  grid-area: advantage-6;
-}
-
-.city-advantages-list li:nth-child(6) {
-  flex-direction: column-reverse;
+.city-advantages-comfortable-service-container {
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .city-advantages-item:nth-child(6) .decorative-h1 {
@@ -596,6 +579,15 @@ body {
 
 .vacation-tips-item {
   text-align: center;
+}
+
+.city-advantages-item-info,
+.vacation-tips-item
+{
+  box-sizing: border-box;
+  width: 400px;
+  height: 385px;
+  padding: 50px;
 }
 
 .city-advantages-item-title,
@@ -1283,6 +1275,12 @@ body {
 .modal input[type="number"]::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+.city-advantages-item {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .range-wrapper-inputs input[type="number"],
