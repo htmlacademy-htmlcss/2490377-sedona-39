@@ -212,7 +212,6 @@ body {
 }
 
 .select-control:disabled {
-  opacity: 0.3;
   border-color: #000000;
   color: #000000;
 }
@@ -633,7 +632,8 @@ body {
 }
 
 .button:disabled {
-  color: #ffffff;
+  pointer-events: none;
+  color: #FFFFFF;
   background-color: #E5E5E5;
 }
 
@@ -698,6 +698,7 @@ body {
 }
 
 .transparent-button:disabled {
+  pointer-events: none;
   color: rgba(255, 255, 255, 0.1);
 }
 
@@ -1623,4 +1624,11 @@ body {
 .youtube-logo:active path
 {
   fill: rgba(104, 162, 202, 0.3);
+}
+
+.field:disabled,
+.select-control:disabled
+{
+  pointer-events: none;
+  opacity: 0.3;
 }
