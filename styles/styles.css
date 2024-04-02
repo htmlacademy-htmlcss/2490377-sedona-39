@@ -1547,7 +1547,7 @@ body {
 .info-icon + .info-description::after {
   content: "";
   top: -5px;
-  left: 132px;
+  left: 120px;
   position: absolute;
   width: 20px;
   height: 20px;
@@ -1557,7 +1557,7 @@ body {
 
 .info-icon + .info-description {
   visibility: hidden;
-  left: -68px;
+  left: -58px;
   top: 40px;
   padding: 15px 18px 18px 22px;
   position: absolute;
