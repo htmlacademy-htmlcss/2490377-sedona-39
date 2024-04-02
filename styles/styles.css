@@ -1156,10 +1156,6 @@ body {
   opacity: 0.3;
 }
 
-.control-input:disabled + .control-mark {
-  border-color: #242424;
-}
-
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
@@ -1627,8 +1623,15 @@ body {
 }
 
 .field:disabled,
-.select-control:disabled
+.select-control:disabled,
+.control-input:disabled + .control-mark
 {
   pointer-events: none;
   opacity: 0.3;
+}
+
+.range-toggle:disabled {
+  pointer-events: none;
+  background-color: #808080;
+  opacity: 1;
 }
