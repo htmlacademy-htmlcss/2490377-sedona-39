@@ -186,48 +186,75 @@
     <section class="modal-content">
       <h2 class="modal-title decorative-h1">Поиск гостиницы в Седоне</h2>
       <form class="modal-finder-hotel" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="modal-finder-hotel-label">
+        <div class="modal-finder-hotel-label">
           <span class="input-container">
             <em class="field-title">
-              Дата Заезда:
+              <label for="arrival-date-input" class="field-title">
+                Дата Заезда:
+              </label>
             </em>
-            <input class="field" placeholder="Укажите дату" value="27 апреля 2020" type="text" name="arrival-date" required>
+            <input class="field" id="arrival-date-input" placeholder="Укажите дату" value="27 апреля 2020" type="text" name="arrival-date" required>
           </span>
           <em class="info-box info-box-error">Мы не можем отправить вас в прошлое.</em>
-        </label>
-        <label class="modal-finder-hotel-label">
+        </div>
+        <div class="modal-finder-hotel-label">
           <span class="input-container">
-            <em class="field-title">
+            <label for="departure-date-input" class="field-title">
               Дата Выезда:
-            </em>
-            <input class="field" placeholder="Укажите дату" value="1 сентября 2023" type="text" name="departure-date" required>
+            </label>
+            <input class="field" id="departure-date-input" placeholder="Укажите дату" value="1 сентября 2023" type="text" name="departure-date" required>
           </span>
           <em class="info-box">На эти даты есть свободные номера. Пока есть.</em>
-        </label>
+        </div>
         <div class="modal-finder-hotel-label-persons">
           <div class="modal-finder-hotel-label modal-finder-hotel-label-adults">
-            <em class="field-title">
-              Взрослые:
-            </em>
+            <div class="field-title">
+              <label for="adults-input">
+                Взрослые:
+              </label>
+            </div>
             <div class="count-selector-container">
-              <button class="count-selector-arrow count-selector-left-arrow" type="button"></button>
-              <input class="count-selector field" value="2" type="number" name="adults" min="1" required>
-              <button class="count-selector-arrow count-selector-right-arrow" type="button"></button>
+              <button class="count-selector-arrow count-selector-left-arrow" type="button">
+                <span class="visually-hidden">
+                  Уменьшить
+                </span>
+              </button>
+              <input class="count-selector field" id="adults-input" value="2" type="number" name="adults" min="1" required>
+              <button class="count-selector-arrow count-selector-right-arrow" type="button">
+                <span class="visually-hidden">
+                  Увеличить
+                </span>
+              </button>
             </div>
           </div>
           <div class="modal-finder-hotel-label modal-finder-hotel-label-children">
-            <em class="field-title">
-              Дети:
-              <span class="info-icon" title="Укажите количество детей">
-                <em>
+            <div class="field-title">
+              <label for="children-input">
+                Дети:
+              </label>
+              <div class="info-icon-container">
+                <button class="info-icon" type="button">
+                  <span class="visually-hidden">
+                    Укажите количество детей
+                  </span>
+                </button>
+                <em class="info-description">
                   Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
                 </em>
-              </span>
-            </em>
+              </div>
+            </div>
             <div class="count-selector-container">
-              <button class="count-selector-arrow count-selector-left-arrow" type="button"></button>
-              <input class="count-selector field" value="2" type="number" name="children" min="0" required>
-              <button class="count-selector-arrow count-selector-right-arrow" type="button"></button>
+              <button class="count-selector-arrow count-selector-left-arrow" type="button">
+                <span class="visually-hidden">
+                  Уменьшить
+                </span>
+              </button>
+              <input class="count-selector field" id="children-input" value="2" type="number" name="children" min="0" required>
+              <button class="count-selector-arrow count-selector-right-arrow" type="button">
+                <span class="visually-hidden">
+                  Увеличить
+                </span>
+              </button>
             </div>
           </div>
         </div>
