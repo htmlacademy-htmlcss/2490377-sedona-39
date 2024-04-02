@@ -1158,7 +1158,11 @@ body {
 }
 
 .control:hover .control-mark {
-  opacity: 0.5;
+  opacity: 0.6;
+}
+
+.control:active .control-mark {
+  opacity: 0.3;
 }
 
 .control-input:disabled + .control-mark {
