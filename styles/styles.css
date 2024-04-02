@@ -1579,16 +1579,10 @@ body {
   text-align: left;
 }
 
-@supports not (-moz-appearance: none) {
-  .modal input[type="date"] {
-    background-image: url('../images/ux/date.svg');
-    background-repeat: no-repeat;
-    background-position: right 20px center;
-  }
-
-  .modal input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-  }
+.modal .form-date {
+  background-image: url('../images/ux/date.svg');
+  background-repeat: no-repeat;
+  background-position: right 20px center;
 }
 
 .html-academy-logo:hover g,
