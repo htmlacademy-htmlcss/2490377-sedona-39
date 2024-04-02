@@ -697,16 +697,6 @@ body {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.modal .field:hover {
-  background-color: #E6E6E6;
-}
-
-.modal .input-container .field:focus {
-  outline: none;
-  background-color: #E6E6E6;
-  box-shadow: 0 0 0 3px #83B3D3;
-}
-
 .transparent-button:disabled {
   color: rgba(255, 255, 255, 0.1);
 }
@@ -1311,9 +1301,19 @@ body {
   border-radius: 4px 0 0 4px;
 }
 
-.range-input:focus {
+.field:focus {
   outline: none;
   box-shadow: 0 0 0 3px #83B3D3;
+}
+
+.field {
+  background-color: #F2F2F2;
+}
+
+.field:hover,
+.field:focus
+{
+  background-color: #E6E6E6;
 }
 
 .range-wrapper-inputs > :first-child {
@@ -1384,7 +1384,6 @@ body {
 .modal .field {
   width: 440px;
   box-sizing: border-box;
-  background-color: #F2F2F2;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -1463,6 +1462,10 @@ body {
   border-radius: 0;
   padding: 12px 0;
   width: 31px;
+}
+
+.modal .count-selector:focus {
+  box-shadow: none;
 }
 
 .modal .count-selector-container {
